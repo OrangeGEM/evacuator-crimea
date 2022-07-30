@@ -1,12 +1,20 @@
 import './header.scss';
 
-import Logo from 'assets/images/evaсuator.png';
+import { Link, useHref } from 'react-router-dom';
 
 export default function Header() {
 
     return (
         <header className="header">
-            <img src={Logo} alt='123' />
+            <div className="header-content">
+                <div className="header-title"> Эвакуатор Ялта </div>
+                <nav>
+                    <Link to="/" className="header-navlink"> СТОИМОСТЬ </Link>
+                    <Link to="/" className="header-navlink"> СОТРУДНИЧЕСТВО </Link>
+                    <Link to="/" className="header-navlink"> О КОМПАНИИ </Link>
+                    <Link to="/" className="header-navlink"> КОНТАКТЫ </Link>
+                </nav>
+            </div>
         </header>
     )
 }

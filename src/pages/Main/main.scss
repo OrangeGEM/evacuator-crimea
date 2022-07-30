@@ -1,0 +1,329 @@
+.main {
+    background-image: url(../../assets/images/main-back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 100%;
+    height: 480px;
+
+    box-sizing: border-box;
+    padding: 57px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-img {
+    background-image: url(../../assets/images/evakimg1.png);
+    background-repeat: no-repeat;
+    background-position: 110% 50%;
+    background-size: 60%;
+
+    width: 80%;
+    height: 100%;
+    max-width: 1080px;
+
+    padding: 27px 0px;
+}
+
+.main-content {
+    width: 50%;
+    height: 100%;
+
+    .content-title {
+        margin-bottom: 5.82%;
+        text-align: left;
+        word-wrap: break-word;
+        font: bold 130%/1 Arial;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .content-line {
+        text-align: left;
+        margin-bottom: 5.82%;
+    }
+
+    .content-text {
+        color: #ffffff !important;
+        font-size: 18px;
+        text-align: left;
+        word-wrap: break-word;
+        box-sizing: border-box;
+        font-weight: 500;
+       
+        line-height: 1.3em;
+
+        margin-bottom: 5.82%;
+    }
+
+    .content-phone {
+        color: #ff6600 !important;
+        font-size: 36px;
+        text-align: left;
+    }
+}
+
+.service-container {
+    padding: 54px 0;
+    position: relative;
+    border-top: 10px solid #fff;
+    border-bottom: 10px solid #fff;
+    background-color: #333333 !important;
+}
+
+.service-title-container {
+    position: relative;
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+
+    padding-top: 27px;
+    padding-bottom: 35px;
+    // display: flex;
+    // align-items: center;
+}
+
+.service-title {
+    width: 21%;
+    margin-right: 9.5%;
+    padding-top: 4px;
+    float: left;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    
+
+    font: bold 185%/1 Arial;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+
+.service-icons {
+    display: flex;
+
+    position: relative;
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+    margin-top: 10px !important;
+
+    .icon-container {
+        width: 20.875%;
+        margin-right: 5.5%;
+        box-sizing: border-box;
+
+        .icon-text {
+            word-wrap: break-word;
+            font-weight: bold;
+            font-size: 18px;
+            color: #ffffff !important;
+            text-align: center;
+        }
+    }
+}
+
+.work {
+    border-top: 10px solid #fff;
+    border-bottom: 10px solid #fff;
+
+    padding: 54px 0;
+
+    .work-content {
+        display: flex;
+
+        padding-top: 27px;
+        padding-right: 0px;
+        padding-bottom: 12px;
+        padding-left: 0px;
+
+        position: relative;
+        width: 80%;
+        max-width: 1080px;
+        margin: auto;
+
+        box-sizing: border-box;
+
+        line-height: 1.7em;
+
+        .work-left {
+            width: 47.25%;
+            margin-right: 5.5%;
+            .left-title {
+                font: bold 185%/1 Arial;
+                color: #333333 !important;
+                text-transform: uppercase;
+                box-sizing: border-box;
+                text-align: left;
+                margin-bottom: 5.82%;
+            }
+        }
+
+        .work-right {
+            width: 47.25%;
+            float: left;
+            position: relative;
+            background-position: center;
+            background-size: cover;
+            box-sizing: border-box;
+        }
+    }
+}
+
+.instruction {
+    padding: 15px 0px 30px;
+    position: relative;
+    background-image: url(../../assets/images/main-back.png);
+
+    height: 396px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: 100%;
+    -moz-background-size: cover;
+    background-size: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+
+    .instruction-container {
+        padding: 27px 0;
+        position: relative;
+        width: 80%;
+        
+        height: 100%;
+        max-width: 1080px;
+        margin: auto;
+        background-image: url(../../assets/images/evakimg2.png);
+        background-repeat: no-repeat;
+        background-position: 110% 0%;
+        background-size: 55%;
+
+        .instruction-content {
+            width: 47.25%;
+            margin-right: 5.5%;
+            float: left;
+            position: relative;
+            background-position: center;
+            background-size: cover;
+            box-sizing: border-box;
+
+            display: flex;
+            flex-direction: column;
+            .instruction-text {
+                width: 47.25%;
+                float: left;
+                position: relative;
+                background-position: center;
+                background-size: cover;
+                box-sizing: border-box;
+                
+                font-weight: 500;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+    
+            }
+        }
+    }
+}
+
+.service {
+    margin-bottom: 5.82%;
+    color: #ffffff !important;
+    font-size: 18px;
+    text-align: left;
+    word-wrap: break-word;
+    line-height: 1.35em;
+
+}
+
+.end-text {
+    word-wrap: break-word;
+    font-size: 18px;
+    text-align: left;
+    color: #ffffff !important;
+    line-height: 1.35em;
+}
+
+.staps {
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #ffffff;
+    background-image: url(../../assets/images/fon_mi_evak.png);
+    padding: 54px 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: 100%;
+    -moz-background-size: cover;
+    background-size: 100%;
+    background-size: cover;
+    border-top: 10px solid #fff;
+    border-bottom: 10px solid #fff;
+    height: 350px;
+    
+    .staps-title {
+        padding-top: 27px;
+        padding-right: 0px;
+        padding-bottom: 12px;
+        padding-left: 0px;
+        position: relative;
+        width: 80%;
+        max-width: 1080px;
+        margin: auto;
+        border: 0;
+        outline: 0;
+        background: transparent;
+        box-sizing: border-box;
+        font-size: 100%;
+        vertical-align: baseline;
+        font-family: Arial;
+        color: #000;
+        font: bold 185%/1 Arial;
+        margin-bottom: 30px;
+    }
+
+    .staps-icons {
+        margin-top: 10px !important;
+        padding-top: 0px;
+        padding-bottom: 39px;
+        padding: 27px 0;
+        position: relative;
+        width: 80%;
+        max-width: 1080px;
+
+        margin: auto;
+
+        .staps-icon {
+            width: 29.666%;
+            margin-right: 5.5%;
+            float: left;
+            position: relative;
+            background-position: center;
+            background-size: cover;
+
+            .icon-mod {
+                margin-bottom: 0;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 18px;
+                color: #333333 !important;
+                margin: auto;
+                text-align: center;
+
+                .icon-container {
+                    margin-bottom: 30px;
+                    text-align: center;
+                    box-sizing: border-box;
+                }
+            }
+        }
+    }
+}
