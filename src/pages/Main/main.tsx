@@ -53,7 +53,7 @@ export default function Main() {
                                         <a style={{
                                             color: "#FF6600",
                                             textDecoration: "none"
-                                        }} href="tel:+79780151414"> +7 (978) 015-14-14 </a>
+                                        }} href="tel:+79780455060"> +7 (978) 045-50-60 </a>
                                     </span>
                                 </strong>
                             </p>
@@ -86,7 +86,7 @@ export default function Main() {
                                 <h4 style={{ margin: "0px", paddingBottom: "5px", fontWeight: "normal" }}> Эвакуация автомобиля </h4>
                                 <p style={{ margin: "0px" }}>
                                     от
-                                    <span style={{ color: "#ff6600" }}> 1000 </span>
+                                    <span style={{ color: "#ff6600" }}> 2000 </span>
                                     руб.
                                 </p>
                             </div>

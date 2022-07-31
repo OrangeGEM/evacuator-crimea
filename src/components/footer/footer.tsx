@@ -29,8 +29,8 @@ export default function Footer() {
 
                     <div className="footer-widget">
                         <div className="widget-nav">
-                            <p className="nav-element" style={{ color: "#FF6600", paddingLeft: "100px" }}>
-                                +7 (978) 015 14 14
+                            <p className="nav-element" style={{ color: "#FF6600", paddingLeft: "300px" }}>
+                                +7 (978) 045-50-60
                             </p>
                         </div>
                     </div>

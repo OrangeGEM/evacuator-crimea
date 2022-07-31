@@ -15,7 +15,7 @@ export default function Header() {
                     <Link to="/rates" className="header-navlink"> СТОИМОСТЬ </Link>
                     <Link to="/cooperation" className="header-navlink"> СОТРУДНИЧЕСТВО </Link>
                     <Link to="/about" className="header-navlink"> О КОМПАНИИ </Link>
-                    <Link to="/contracts" className="header-navlink"> КОНТАКТЫ </Link>
+                    <Link to="/contacts" className="header-navlink"> КОНТАКТЫ </Link>
                 </nav>
             </div>
         </header>

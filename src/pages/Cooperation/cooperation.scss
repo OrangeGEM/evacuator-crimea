@@ -1,0 +1,53 @@
+.cooperation {
+    background-color: #ffffff;
+    padding: 0px 0px 30px;
+    box-sizing: border-box;
+
+    height: 420px;
+
+    .cooperation-container {
+        padding: 27px 0;
+        position: relative;
+        width: 80%;
+        max-width: 1080px;
+        margin: auto;
+        box-sizing: border-box;
+        height: 100%;
+
+        font-size: 14px;
+
+        .cooperation-container-column {
+            margin-right: 0 !important;
+            width: 100%;
+            float: left;
+            position: relative;
+            background-position: center;
+            background-size: cover;
+
+            .cooperation-table-container {
+                text-align: left;
+
+                #coop-id {
+                    padding-bottom: 1em;
+                    padding: 0 0 23px 16px;
+                    line-height: 26px;
+                    list-style-type: disc;
+                    box-sizing: border-box;
+                    display: block;
+                    margin-block-start: 1em;
+                    margin-block-end: 1em;
+                    margin-inline-start: 0px;
+                    margin-inline-end: 0px;
+                    padding-inline-start: 40px;
+                    text-align: left;
+                    padding-left: 16px;
+                }
+            }
+        }
+    }
+}
+
+.link {
+    color: #ff6600;
+    text-decoration: none;
+}

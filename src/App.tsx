@@ -4,7 +4,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import About from './pages/About/about';
-import Contracts from './pages/Contacts/contracts';
+import Contacts from './pages/Contacts/contacts';
 import Cooperation from './pages/Cooperation/cooperation';
 import Main from './pages/Main/main';
 import Rates from './pages/Rates/rates';
@@ -19,7 +19,7 @@ function App() {
           <Route path="/" element={<Main />} />
           <Route path="/rates" element={<Rates />} />
           <Route path="/cooperation" element={<Cooperation />} />
-          <Route path="/contracts" element={<Contracts />} />
+          <Route path="/contacts" element={<Contacts />} />
           <Route path="/about" element={<About />} />
         </Routes>
       <Footer />
